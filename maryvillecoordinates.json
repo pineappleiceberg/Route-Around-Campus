@@ -1,0 +1,163 @@
+{
+  "locations": [
+    {
+      "name": "Maryville Lacrosse Field",
+      "latitude": 38.64784342824106,
+      "longitude": -90.49906177654816,
+      "score": 1,
+      "connections": {
+        "Maryville Softball Field": 0.15,
+        "Maryville Tennis Courts": 0.15
+      }
+    },
+    {
+      "name": "Maryville Softball Field",
+      "latitude": 38.64765908254582,
+      "longitude": -90.49804107185753,
+      "score": 1,
+      "connections": {
+        "Maryville Lacrosse Field": 0.15,
+        "Maryville Athletic Complex": 0.15
+      }
+    },
+    {
+      "name": "Maryville Tennis Courts",
+      "latitude": 38.647155866206525,
+      "longitude": -90.49815590113523,
+      "score": 1,
+      "connections": {
+		"Maryville Lacrosse Field": 0.15,
+        "Maryville Softball Field": 0.1,
+		"Maryville Athletic Complex": 0.1
+      }
+    },
+    {
+      "name": "Maryville Athletic Complex",
+      "latitude": 38.64723367137236,
+      "longitude": -90.49903750174035,
+      "score": 7,
+      "connections": {
+        "Maryville Lacrosse Field": 0.1,
+        "Maryville Softball Field": 0.1,
+        "Maryville Tennis Courts": 0.1,
+        "Saints Hall": 0.8
+      }
+    },
+    {
+      "name": "Saints Hall",
+      "latitude": 38.646587008790675,
+      "longitude": -90.50201300931467,
+      "score": 4,
+      "connections": {
+        "Walker Hall": 0.15,
+        "Gander Hall": 0.2
+      }
+    },
+    {
+      "name": "Maryville Soccer Field",
+      "latitude": 38.644550942024004,
+      "longitude": -90.50173513654757,
+      "score": 5,
+      "connections": {
+        "Maryville Baseball Fields": 0.25,
+        "Mouton Hall": 0.25,
+		"Simon Center": 0.25
+      }
+    },
+    {
+      "name": "Maryville Baseball Fields",
+      "latitude": 38.64328256274754,
+      "longitude": -90.50288868270982,
+      "score": 5,
+      "connections": {
+        "Simon Center": 0.2,
+        "Maryville Soccer Field": 0.3
+      }
+    },
+    {
+      "name": "Simon Center",
+      "latitude": 38.64374043935658,
+      "longitude": -90.50398085086984,
+      "score": 4,
+      "connections": {
+        "Maryville Baseball Fields": 0.2,
+        "The DUC": 0.1,
+        "Walker Hall": 0.35
+      }
+    },
+    {
+      "name": "Mouton Hall",
+      "latitude": 38.64420184648128,
+      "longitude": -90.50323718230429,
+      "score": 3,
+      "connections": {
+        "Walker Hall": 0.1,
+        "Gander Hall": 0.15
+      }
+    },
+    {
+      "name": "Walker Hall",
+      "latitude": 38.6450755957483,
+      "longitude": -90.50362061050873,
+      "score": 3,
+      "connections": {
+        "Mouton Hall": 0.1,
+        "Saints Hall": 0.15,
+        "Simon Center": 0.35,
+		"Gander Hall": 0.2
+      }
+    },
+    {
+      "name": "Gander Hall",
+      "latitude": 38.64605150473667,
+      "longitude": -90.50377849271058,
+      "score": 2,
+      "connections": {
+        "Saints Hall": 0.2,
+        "Mouton Hall": 0.15,
+        "Anheuser-Busch Academic Center": 0.3
+      }
+    },
+    {
+      "name": "Anheuser-Busch Academic Center",
+      "latitude": 38.64562586494756,
+      "longitude": -90.50501787184132,
+      "score": 2,
+      "connections": {
+        "Maryville University Library": 0.1,
+        "Maryville Design and Visual Art": 0.2,
+        "The DUC": 0.25
+      }
+    },
+	"name": "Potter Hall",
+      "latitude": 38.6425247518694,
+      "longitude": -90.5061808433536,
+      "score": 8,
+      "connections": {
+        "The DUC": 0.6
+      }
+    },
+    {
+      "name": "Maryville University Library",
+      "latitude": 38.64470488646414,
+      "longitude": -90.50607733449746,
+      "score": 4,
+      "connections": {
+        "Anheuser-Busch Academic Center": 0.1,
+        "Potter Hall": 0.6,
+        "The DUC": 0.15
+      }
+    },
+    {
+      "name": "The DUC",
+      "latitude": 38.64447812204553,
+      "longitude": -90.50491968942556,
+      "score": 3,
+      "connections": {
+        "Maryville University Library": 0.15,
+        "Anheuser-Busch Academic Center": 0.15,
+        "Buder Commons": 0.1
+      }
+    }
+  ]
+}
