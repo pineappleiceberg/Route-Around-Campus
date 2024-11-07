@@ -129,7 +129,8 @@
         "The DUC": 0.25
       }
     },
-	"name": "Potter Hall",
+     {
+      "name": "Potter Hall",
       "latitude": 38.6425247518694,
       "longitude": -90.5061808433536,
       "score": 8,
