@@ -1,12 +1,16 @@
 # Challenge 1: Shortest Path Challenge
 
-## Objective:
-Find the **shortest path** between two given points using the distances provided in the JSON. You can choose different methods to solve the challenge.
+## Objective
+Find the **shortest path** between two given points using the distances provided in the JSON data. You can any method or technique you want to solve this challenge!
 
-## Instructions:
+## Instructions
 - **Start:** Potter Hall
 - **End:** Maryville Softball Field
 
-## Some Possible Methods (but not all):
-1. **Dijkstra’s algorithm:** Treat the locations as nodes in a graph and find the shortest path.
-2. **A** algorithm:** Use the Haversine formula as a heuristic to guide the search.
+## Possible methods (but not all of them)
+1. **Dijkstra’s Algorithm:**
+   Use the locations as nodes in a graph and use Dijkstra’s algorithm to find the shortest path based on the distances between each location
+
+2. **A\* (A-star) Algorithm:**
+   Use the Haversine formula or another heuristic to guide the search for the shortest path
+
